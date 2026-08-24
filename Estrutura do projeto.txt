@@ -1,0 +1,86 @@
+frontend/
+└── src/
+    │
+    ├── components/
+    │   │
+    │   ├── layout/
+    │   │   ├── DashboardLayout.jsx
+    │   │   ├── DashboardLayout.css
+    │   │   │
+    │   │   ├── Sidebar.jsx
+    │   │   ├── Sidebar.css
+    │   │   │
+    │   │   ├── Topbar.jsx
+    │   │   └── Topbar.css
+    │   │
+    │   ├── machines/
+    │   │   ├── MachineList.jsx
+    │   │   ├── MachineList.css
+    │   │   │
+    │   │   ├── MachineCard.jsx
+    │   │   ├── MachineCard.css
+    │   │   │
+    │   │   ├── AddMachineCard.jsx
+    │   │   └── AddMachineCard.css
+    │   │
+    │   ├── overview/
+    │   │   ├── TotalConnectionsCard.jsx
+    │   │   ├── TotalConnectionsCard.css
+    │   │   │
+    │   │   ├── ConnectionStatesCard.jsx
+    │   │   ├── ConnectionStatesCard.css
+    │   │   │
+    │   │   ├── MachineStatusCard.jsx
+    │   │   ├── MachineStatusCard.css
+    │   │   │
+    │   │   ├── ConnectionVolumeChart.jsx
+    │   │   └── ConnectionVolumeChart.css
+    │   │
+    │   ├── connections/
+    │   │   ├── ConnectionsTable.jsx
+    │   │   ├── ConnectionsTable.css
+    │   │   │
+    │   │   ├── ConnectionFilters.jsx
+    │   │   ├── ConnectionFilters.css
+    │   │   │
+    │   │   ├── ConnectionRow.jsx
+    │   │   ├── ConnectionRow.css
+    │   │   │
+    │   │   ├── ConnectionPagination.jsx
+    │   │   └── ConnectionPagination.css
+    │   │
+    │   └── details/
+    │       ├── ConnectionDetails.jsx
+    │       └── ConnectionDetails.css
+    │
+    ├── pages/
+    │   ├── Dashboard.jsx
+    │   ├── Dashboard.css
+    │   │
+    │   ├── Machines.jsx
+    │   ├── Machines.css
+    │   │
+    │   ├── Settings.jsx
+    │   ├── Settings.css
+    │   │
+    │   ├── Login.jsx
+    │   └── Login.css
+    │
+    ├── services/
+    │   └── api.js
+    │
+    ├── hooks/
+    │   └── ...
+    │
+    ├── data/
+    │   └── mockConnections.js
+    │
+    ├── styles/
+    │   ├── variables.css
+    │   ├── global.css
+    │   └── animations.css
+    │
+    ├── App.jsx
+    ├── App.css
+    ├── main.jsx
+    └── index.css
