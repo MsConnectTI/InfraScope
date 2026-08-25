@@ -1,6 +1,7 @@
-import Sidebar from '../Layout/Sidebar.jsx'
+import Sidebar from './Sidebar.jsx'
 import ConnectionStatesCard from '../Overview/ConnectionStatesCard.jsx'
 import ConnectionVolumeChart from '../Overview/ConnectionVolumeChart.jsx'
+import ConnectionsTable from '../Connections/ConnectionsTable.jsx'
 import MachineStatusCard from '../Overview/MachineStatusCard.jsx'
 import TotalConnectionsCard from '../Overview/TotalConnectionsCard.jsx'
 import '../Layout/DashboardLayout.css'
@@ -23,7 +24,9 @@ function Dashboard() {
           <ConnectionVolumeChart />
         </section>
 
-        <section className="dashboard__connections" aria-label="Conexões" />
+        <section className="dashboard__connections" aria-label="Conexões">
+          <ConnectionsTable />
+        </section>
         <section className="dashboard__details" aria-label="Detalhes" />
       </section>
     </main>
